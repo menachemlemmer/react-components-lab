@@ -16,8 +16,10 @@ module.exports = {
     "react-refresh/only-export-components": [
       "warn",
       { allowConstantExport: true },
+      "react/prop-types": "off",
+      "react/no-escaped-entities": "off",
+      "react/no-unused-vars": "off",
     ],
-    "react/prop-types": "off",
-    "react/no-escaped-entities": "off",
+
   },
 };
